@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>salon website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" 
+    integrity="sha512-PgQMlq+nqFLV4ylk1gwUOgm6CtIIXkKwaIHp/PAIWHzig/lKZSEGKEysh0TCVbHJXCLN7WetD8TFecIky75ZfQ==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <section class="main-sec">
+        <div class="navbar h-class">
+            <h4 class="logo">beauty <span>salon</span></h4>
+            <ul class="items v-class">
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">SKILLS</a></li>
+                <li><a href="#">INFO</a></li>
+                <li><a href="#">ABOUT</a></li>
+                <li><a href="#">CONTACT</a></li>
+            </ul>
+            <div class="burger">&#9776</div>
+        </div>
+        <!-- _______home -->
+        <div class="slider">
+            <div class="slides">
+
+                <div class="slide slide1">
+                    <div class="slide-text">
+                        <p class="para">beauty spa</p>
+                        <h1>Success is when i see my clients smile</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <button class="btn">explore more</button>
+                    </div>
+                </div>
+
+                <div class="slide slide2">
+                    <div class="slide-text">
+                        <p class="para">beauty spa</p>
+                        <h1>fall in love with your reflection</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        </p>
+                        <button class="btn">explore more</button>
+                    </div>
+                </div>
+
+                <div class="slide slide3">
+                    <div class="slide-text">
+                        <p class="para">beauty spa</p>
+                        <h1>A women who cuts her hair is about to change her life</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        </p>
+                        <button class="btn">explore more</button>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="controls">
+                <button class="prev btn2" onclick="prevSlide()">&#10094;</button>
+                <button class="next btn2" onclick="nextSlide()">&#10095;</button>
+            </div>
+            <div class="dots"></div>
+        </div>
+    </section>
+    <!-- _________story section  -->
+    <section class="sec">
+        <div class="row">
+            <div class="left">
+                <img src="img/pic7.jpg" alt="">
+            </div>
+            <div class="right">
+                <h1 class="heading">our story</h1>
+                <p class="para1">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas tempore, molestias nam debitis mollitia doloribus facere sed, voluptas maxime rem eveniet pariatur nostrum ea quos tenetur aliquid possimus hic laboriosam?</p>
+                <button class="btn btn3">more info</button>
+            </div>
+        </div>
+    </section>
+    <!-- _______services  -->
+    <section class="sec ser">
+        <p class="para">services</p>
+        <h1 class="heading">healthy beautiful and balanced life</h1>
+        <div class="row box">
+            <div class="boxes">
+                <img src="img/pic4.png" alt="">
+                <h1 class="heading">hair services</h1>
+                <p class="para1">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius maiores, labore amet nihil iste placeat! Enim, placeat quod magnam ratione nemo magni fugit fuga iure itaque reprehenderit repellendus esse aperiam.</p>
+            </div>
+            <div class="boxes">
+                <img src="img/pic5.png" alt="">
+                <h1 class="heading">hair coloring</h1>
+                <p class="para1">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius maiores, labore amet nihil iste placeat! Enim, placeat quod magnam ratione nemo magni fugit fuga iure itaque reprehenderit repellendus esse aperiam.</p>
+            </div>
+            <div class="boxes">
+                <img src="img/pic6.png" alt="">
+                <h1 class="heading">party makeup</h1>
+                <p class="para1">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius maiores, labore amet nihil iste placeat! Enim, placeat quod magnam ratione nemo magni fugit fuga iure itaque reprehenderit repellendus esse aperiam.</p>
+            </div>
+        </div>
+    </section>
+    <!-- __________classes-sec  -->
+    <section class="cls">
+        <div class="row">
+            <div class="class">
+                <h1>course program</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi ab natus delectus libero blanditiis, soluta, amet ullam accusamus nostrum dolores voluptatum, minus illo eligendi quos? Architecto earum aspernatur voluptatibus iure.</p>
+            </div>
+            <div class="class-box">
+                <i class="fas fa-user-cog"></i>
+                <h2 class="heading">intership</h2>
+                <p class="para1">Lorem ipsum dolor sit amet consectetur adipisicing elit.Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <button class="btn">apply</button>
+            </div>
+            <div class="class-box">
+                <i class="fas fa-random"></i>
+                <h2 class="heading">training</h2>
+                <p class="para1">Lorem ipsum dolor sit amet consectetur adipisicing elit.Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <button class="btn">apply</button>
+            </div>
+            <div class="class-box">
+                <i class="fas fa-clipboard-list"></i>
+                <h2 class="heading">regular classes</h2>
+                <p class="para1">Lorem ipsum dolor sit amet consectetur adipisicing elit.Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <button class="btn">apply</button>
+            </div>
+        </div>
+    </section>
+    <!-- ________exp-sec  -->
+    <section class="sec exp">
+        <div class="cont">
+            <h1 class="heading">visit our salon to experience the sense of beauty and style!</h1>
+            <p class="para1">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi reprehenderit deleniti eos saepe assumenda voluptate, nostrum voluptates ea dolorum quam quas, consectetur ratione quis! Suscipit rerum ratione voluptas recusandae vitae!</p>
+            <h2>+92 333 492021</h2>
+        </div>
+    </section>
+    <!-- _________contact-sec  -->
+    <section class="sec">
+        <p class="para">feel free toask if any query</p>
+        <h1 class="heading">contact us</h1>
+        <div class="row">
+            <div class="contact">
+                <i class="fab fa-facebook"></i>
+                <h2>@annacoding</h2>
+            </div>
+            <div class="contact">
+                <i class="fab fa-instagram"></i>
+                <h2>@annacodingccorner</h2>
+            </div>
+            <div class="contact">
+                <i class="fab fa-whatsapp"></i>
+                <h2>@annacoding</h2>
+            </div>
+        </div>
+    </section>
+    <footer>copyright2023 @Annacodingcorner</footer>
+    <script src="index.js"></script>
+</body>
+</html>
