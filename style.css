@@ -316,4 +316,11 @@ footer{
     .class-box{
         padding: 4% 10%;
     }
+    .slide-text{
+        width: 80%;
+        height: 80vh;
+    }
+    .controls {
+         padding: 0 2%;
+    }
 }
